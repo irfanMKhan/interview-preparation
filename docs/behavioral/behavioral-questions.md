@@ -16,11 +16,11 @@
 ## Short Professional Statement (SPS) / Tell me about yourself (introduce)
 - I’m a self-motivated software engineer over 6 years of experience developing web applications using multiple different technologies.
 - I have developed applications for different domains like Banking platform, Telecommunication platform, Mobile financial solutions and CRM.
-- Developed enterprise applications using technologies like Java, Spring Boot, Spring Cloud, Microservices and React JS. (Docker, Kubernetes, AWS)
+- Developed enterprise applications using technologies like Java, Spring Boot, Spring Cloud, following Microservices architecture and used React and Angular. (Docker, Kubernetes, AWS)
 - I have experience of working with clients from a few different countries. [England, Cambodia]
 - I can quickly adapt to new technologies.
 - I love to take ownership of the product I’m working on.
-- I believe, I will be a valuable resource to your company.
+- I believe I will be a valuable resource to your company.
 - I’m excited about this opportunity because it’s aligned with my professional experience.
 
 
@@ -29,16 +29,16 @@
 - In my last job, I worked on a project, which is for a mobile financial platform. The project was to build a high throughput message streaming service with minimal data loss.
 - I worked and led the team directly to have a high throughput streaming service, and we shifted the application from rabbitmq to apache kafka.
 - The Most challenging part was to reduce the data loss and have a priority-aware message sent as soon as possible.
-- I have used `spring cloud` libraries to build the load balancer to consume the kafka producer.
+- I have used `spring cloud` libraries to build the load balancer to consume multiple instance of the kafka producer.
 - Built a separate `auth service` for ensuring authentication and authorization.
 - Mostly used functional style programming using Streams API
 - For testing, I have used `JUnit` and `Mockito` framework
-- For performance testing, I have used Apache JMeter (Test plan, Thread group, Sampler-Http Request, Listener), Check load time/latency
+- For performance testing, I have used `Apache JMeter` (Test plan, Thread group, Sampler-Http Request, Listener), Check load time/latency
 
 **_Netherlands clients - IBFD_**
-- In my last job, I worked on a client project which is a tax research platform. The backend service for that application was a monolith spring boot project.
+- In my last job, I worked on a client project, which is a tax research platform. The backend service for that application was a monolith spring boot project.
 - I worked with the clients directly to research on how to split the monolith into multiple microservices.
-- Most challenging part was to reduce the coupling between multiple modules and splitting it up into separate services
+- The Most challenging part was to reduce the coupling between multiple modules and splitting it up into separate services
 - I have used `spring cloud` libraries to build the microservices. Some of the spring cloud components are:
     - API gateway (Zuul)
     - Configuration service
