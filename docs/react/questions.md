@@ -53,3 +53,32 @@
 - Chrome Network Tab
   - I also checked the Network tab to ensure that unnecessary API calls weren’t triggering the re-renders.
   - Fixing those helped reduce unnecessary data fetches, which indirectly improved the UI performance.
+
+### Difference between let const var?
+- var: function scoped. redeclare, reassign is allowed.
+<pre>
+function example() {
+  var a = 10;
+  if (true) {
+    var a = 20; // Same variable! can be Redeclared.
+    console.log(a); // 20
+  }
+  console.log(a); // 20
+}
+</pre>
+
+- let: blocked scope. reassign is allowed, but redeclaration is not allowed in the same scope.
+<pre>
+let x = 5;
+x = 10; // OK
+let x = 20; // ❌ SyntaxError (in the same scope)
+</pre>
+
+- const: blocked scope. redeclaration is not allowed.
+<pre>
+const y = 10;
+y = 20; // ❌ TypeError
+
+const obj = { name: "John" };
+obj.name = "Doe"; // ✅ Allowed
+</pre>
