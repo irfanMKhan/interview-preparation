@@ -1,11 +1,11 @@
 # React Interview Questions/Topics
 
 ## Questions
-- [What issue faced and how you solved that one in your project](#1)
-- [Difference between let const var?](#2)
-- [Redux Use?](#3)
-- [TypeScript functionality and behavior?](#4)
-- [Oauth and authorization](#5)
+1. [What issue faced and how you solved that one in your project](#1)
+2. [Difference between let const var?](#2)
+3. [Redux Use?](#3)
+4. [TypeScript functionality and behavior?](#4)
+5. [Oauth and authorization](#5)
 - Difference between local storage and storage and cookies.
 - CSS media queries and its responsiveness
 - what is flex and its dorm hierarchy?
@@ -111,7 +111,6 @@ obj.name = "Doe"; // ✅ Allowed
 - Redux-toolkit uses `createSlice` to auto-generate actions and reducers. But in redux you write them separately.
 - In Redux, we need to manually configure store but in redux-toolkit we have `configureStore`
 
-
 ### 4.
 #### TypeScript functionality and behavior?
 - TypeScript is a superset of JavaScript that adds static typing. 
@@ -126,11 +125,6 @@ TypeScript is written for development-time benefits, not for changing the runtim
 JavaScript is the language browsers understand.
 TypeScript just ensures that by the time you get to that JavaScript, it's clean, reliable, and correct.
 ```
-
-
-
-
-
 
 ### 5.
 #### Oauth and authorization

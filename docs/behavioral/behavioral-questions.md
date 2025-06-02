@@ -1,8 +1,9 @@
 # Behavioral Questions
 
 ## Questions:
-- [Short Professional Statement (SPS) / Tell me about yourself (introduce)](#1)
-- Tell me about the last project you worked on or, experience in last company
+1. [Short Professional Statement (SPS) / Tell me about yourself (introduce)](#1)
+2. [Tell me about the last project you worked on or experience in last company](#2)
+- Tell me about the last project you worked on or experience in last company
 - Most challenging project/task
 - Tell me about the time you got stuck and had to learn new technology
 - Tell about a time you saw a problem and took initiative to fix it
@@ -11,7 +12,6 @@
 - Tell me about a time when a client changed the requirements? How did you handle this?
 - Did you ever have a teammate that wasn’t doing their job properly? What did you do?
 - How to resolve co-worker conflict?
-
 
 ### 1.
 #### Short Professional Statement (SPS) / Tell me about yourself (introduce)
@@ -24,8 +24,8 @@
 - I believe I will be a valuable resource to your company.
 - I’m excited about this opportunity because it’s aligned with my professional experience.
 
-
-## Tell me about the last project you worked on or experience in last company
+### 2.
+#### Tell me about the last project you worked on or experience in last company
 **_Message Streaming Service_**
 - In my last job, I worked on a project, which is for a mobile financial platform. The project was to build a high throughput message streaming service with minimal data loss.
 - I worked and led the team directly to have a high throughput streaming service, and we shifted the application from rabbitmq to apache kafka.
