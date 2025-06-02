@@ -13,9 +13,9 @@
 - How to resolve co-worker conflict?
 
 
-### 1. 
+### 1.
 #### Short Professional Statement (SPS) / Tell me about yourself (introduce)
-- I’m a self-motivated software engineer over 6 years of experience developing web applications using multiple different technologies.
+- I’m a self-motivated software engineer with over 8 years of experience developing web applications using multiple different technologies.
 - I have developed applications for different domains like Banking platform, Telecommunication platform, Mobile financial solutions and CRM.
 - Developed enterprise applications using technologies like Java, Spring Boot, Spring Cloud, following Microservices architecture and used React and Angular. (Docker, Kubernetes, AWS)
 - I have experience of working with clients from a few different countries. [England, Cambodia]
