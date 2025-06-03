@@ -37,7 +37,7 @@
 
 #### Chaining question (extra):
 #### related example?
-- I worked on a large Human Resource Management System. 
+- I worked on a large HRMS application. 
 - It had modules for employee onboarding, attendance, payroll, and leave—all built in a Spring MVC monolith with a single Oracle DB and deployed as a WAR file.
 \
 &nbsp;
@@ -61,6 +61,9 @@
   - Owned its own Postgres database (Database per Service pattern).
   - Integrated with Kafka to publish attendance events used by other services.
   - Used Resilience4j for circuit breakers and fallback handling on Kafka consumers to ensure the service wouldn't fail on downstream issues.
+
+### 4.
+#### How did you use spring cloud libraries?
 
 
 
