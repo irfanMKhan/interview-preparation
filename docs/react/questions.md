@@ -8,7 +8,7 @@
 5. [Oauth and authorization](#5)
 - Difference between local storage and storage and cookies.
 - CSS media queries and its responsiveness
-- what is flex and its dorm hierarchy?
+- what is flex and its dom hierarchy?
 - rotation between a child and parent component
 - explain triple equal
 - what is the step-by-step process of debugging an issue?
@@ -31,12 +31,12 @@
   - It was mostly due to unoptimized parent-to-child prop passing and inline function definitions that changed on every render.
   
 - To fix this
-  - I used React.memo to prevent functional components from re-rendering unless their props changed.
+  - I used `React.memo` to prevent functional components from re-rendering unless their props changed.
   - I wrapped frequently used callbacks in useCallback to avoid reference changes on each render.
   - I also did a state restructuring: moved local state closer to the components that actually needed it to reduce cascading re-renders.
   
 - I used React DevTools to identify unnecessary state changes and refactored components 
-- using React.memo and useCallback to avoid unnecessary renders. This reduced re-renders by over 40%, 
+- using `React.memo` and useCallback to avoid unnecessary renders. This reduced re-renders by over 40%, 
 - improving responsiveness significantly.
 
 #### Chaining question:
@@ -92,13 +92,13 @@ obj.name = "Doe"; // ✅ Allowed
 ### 3.
 #### Redux Uses?
 - Redux is a state management library. It uses a single source of truth (store), and state is read-only, modified only via actions and reducers.
-- 
+
 #### Chaining question:
 #### What is the Redux data flow?
 - Component dispatches an action,
 - Action reaches the reducer,
-- Reducer returns a new state,
-- Store updates and notifies subscribed components.
+- `Reducer` returns a new state,
+- Store updates and notify subscribed components.
 
 #### How is Redux different from React Context API?
 - Context is good for small-scale state sharing.

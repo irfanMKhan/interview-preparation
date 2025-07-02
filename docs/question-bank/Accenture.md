@@ -60,7 +60,7 @@
   - Built with Spring Boot + Spring Cloud.
   - Owned its own Postgres database (Database per Service pattern).
   - Integrated with Kafka to publish attendance events used by other services.
-  - Used Resilience4j for circuit breakers and fallback handling on Kafka consumers to ensure the service wouldn't fail on downstream issues.
+  - Used `Resilience4j` for circuit breakers and fallback handling on Kafka consumers to ensure the service wouldn't fail on downstream issues.
 
 ### 4.
 #### How did you use spring cloud libraries?

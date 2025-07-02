@@ -33,7 +33,7 @@ style="float: left; margin-right: 10px; margin-bottom: 20px;"/>
 ### Second Normal Form (2NF)
 - The data must be in First Normal Form (1NF)
 - Remove partial dependency from the table
-- All the non-key columns must be fully dependent on primary key, it should not be partially dependent
+- All the non-key columns must be fully dependent on a primary key, it should not be partially dependent
 
 **Dependency ~ Functional Dependency:** All columns are dependent on only `one` primary key. 
 

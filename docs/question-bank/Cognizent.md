@@ -1,10 +1,10 @@
 1st Round Interview Questions: (Cognizant)
 * Java 17 features
-* Developing RESTfull API (things that needs to be considered)
-* Micro-service security (implementation and consideration)
+* Developing RESTful API (things that need to be considered)
+* Microservice security (implementation and consideration)
 * How to maintain quality of code
 * Http status codes
-* Micro-service routing/communication challenges (service to service communication)
+* Microservice routing/communication challenges (service to service communication)
 * Docker (how to dockerize application)
 * Use java stream api to write code to print weekdays that starts with s
 * Js: const, let
