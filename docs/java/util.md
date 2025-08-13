@@ -3,7 +3,7 @@ Rare Java + Spring Boot + Microservices Questions, with Clear understanding Answ
 1. What moves a thread from Runnable to Running? What does Thread.yield() do?
    Ans: When a thread is in the Runnable state, it means it’s ready to run but waiting for the CPU.
    The CPU scheduler (part of the Operating System) decides when it should move to Running. The JVM doesn’t control when exactly it runs.
-   Thread.yield() tells the thread scheduler, “I’m willing to let other threads run first.” But it’s just a suggestion ,the thread might continue running if no other thread is ready.
+   Thread.yield() tells the thread scheduler, “I’m willing to let other threads run first.” But it’s just a suggestion, the thread might continue running if no other thread is ready.
    Example:
    Suppose you have multiple background tasks running. You can call yield() to let another thread finish first, especially in multitasking environments.
 
@@ -16,7 +16,7 @@ Rare Java + Spring Boot + Microservices Questions, with Clear understanding Answ
    Use Case Example:
    If you have an interface Vehicle, you can add a default void start() method — existing classes like Car or Bike don’t need to change to get this behavior.
 
-3. SynchronizedMap vs ConcurrentHashMap — Which is better in multi-threaded apps?
+3. SynchronizedMap vs. ConcurrentHashMap — Which is better in multithreaded apps?
    Ans: SynchronizedMap locks the entire map during any operation. It is simple but slow in multi-threaded apps.
    ConcurrentHashMap divides the map into segments and locks only the part being used. This makes it much faster in concurrent environments.
    Use Case Example:

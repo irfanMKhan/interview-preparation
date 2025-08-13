@@ -12,7 +12,7 @@
 - rotation between a child and parent component
 - explain triple equal
 - what is the step-by-step process of debugging an issue?
-- what are even handlers
+- what are event handlers
 - explain the box concept model in CSS
 - dom manipulation question
 - Server-side

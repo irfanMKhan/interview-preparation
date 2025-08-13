@@ -17,7 +17,7 @@
 #### Short Professional Statement (SPS) / Tell me about yourself (introduce)
 - I’m a self-motivated software engineer with over 8 years of experience developing web applications using multiple different technologies.
 - I have developed applications for different domains like Banking platform, Telecommunication platform, Mobile financial solutions and CRM.
-- Developed enterprise applications using technologies like Java, Spring Boot, Spring Cloud, following Microservices architecture and used React and Angular. (Docker, Kubernetes, AWS)
+- Developed enterprise applications using technologies like Java, Spring Boot, Spring Cloud, following Microservices architecture and developed dynamic interfaces using React and Angular. (Docker, Kubernetes, AWS)
 - I have experience of working with clients from a few different countries. [England, Cambodia]
 - I can quickly adapt to new technologies.
 - I love to take ownership of the product I’m working on.
@@ -32,7 +32,7 @@
 - The Most challenging part was to reduce the data loss and have a priority-aware message sent as soon as possible.
 - I have used `spring cloud` libraries to build the load balancer to consume multiple instance of the kafka producer.
 - Built a separate `auth service` for ensuring authentication and authorization.
-- Mostly used functional style programming using Streams API
+- Mostly used functional style programming using `Streams API`
 - For testing, I have used `JUnit` and `Mockito` framework
 - For performance testing, I have used `Apache JMeter` (Test plan, Thread group, Sampler-Http Request, Listener), Check load time/latency
 
