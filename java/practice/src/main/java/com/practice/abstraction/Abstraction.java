@@ -3,8 +3,8 @@ package com.practice.abstraction;
 public abstract class Abstraction {
 
     /*
-    Abstract class have constructor
-    but abstract class can not be initialized
+     Abstract class have constructor
+     but abstract class can not be initialized
      */
     public Abstraction() {
 

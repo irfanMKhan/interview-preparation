@@ -8,13 +8,13 @@ public class CheckAbstract {
 
     public static void main(String[] args) {
         /*
-        cannot initialize
-        abstract class need to be extended.
+         cannot initialize
+         Abstract class need to be extended.
         */
 //        Abstraction abstraction = new Abstraction();
 
         /*
-        now this works
+         Now this works
          */
         Abstraction abstraction = new ExtendedAbstraction();
     }
