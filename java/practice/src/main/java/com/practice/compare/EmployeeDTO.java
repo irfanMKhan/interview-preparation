@@ -14,6 +14,13 @@ public class EmployeeDTO implements Comparable<EmployeeDTO> {
     private String department;
     private Long Salary;
 
+    /*
+     init block
+     */
+    {
+
+    }
+
     @Override
     public int compareTo(EmployeeDTO employeeDTO) {
         return this.Salary.compareTo(employeeDTO.getSalary());
