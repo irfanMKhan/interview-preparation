@@ -17,8 +17,17 @@ repositories {
     mavenCentral()
 }
 
+configurations {
+    compileOnly {
+        extendsFrom(configurations.annotationProcessor.get())
+    }
+}
+
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter")
+
+    /* compileOnly inherits lombok from annotationProcessor via extendsFrom */
+    annotationProcessor("org.projectlombok:lombok")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
