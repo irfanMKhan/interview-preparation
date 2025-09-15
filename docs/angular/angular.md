@@ -1,29 +1,36 @@
 # Angular
 
-- [ ] Bootstrap sequence
-- [ ] Input/Output binding
-- [ ] Lifecycle hooks
-- [ ] Directive & Pipes
-- [ ] Testing
-- [ ] Lazy loading in Angular
-- [ ] Difference between `constructor` and `ngOnInit`
-- [ ] Dependency Injection
-- [ ] Tree-Shaking
-- [ ] What are AOT and JIT? Which one is better and why?
-- [ ] Ivy vs View Renderer Engine
-- [ ] What are `@ViewChild` and `@ViewContent`
-- [ ] Difference between interface and type
-- [ ] Why don’t we use constructor for assignment?
-- [ ] proxy pattern, factory
-- [ ] What is signals? Why do we use it?
-- [ ] What do you understand by preprocessor?
-- [ ] Performance optimization in Angular.
-- [ ] Why would you use reactive extensions? Talk about some operators
-- [ ] Angular Ivy, Angular Elements, Standalone Components, JS Expressions, Angular Expressions, Server Side Rendering
-- [ ] Differences and how to unit test, integration test, end to end test 
-- [ ] Unit Testing using `Karma` and `Jasmine`
 
-## Lazy loading in Angular
+## Topic
+
+- [ ] [Bootstrap sequence](#1)
+- [ ] [Input/Output binding](#2)
+- [ ] [Lifecycle hooks](#3)
+- [ ] [Directive & Pipes](#4)
+- [ ] [Testing](#5)
+- [ ] [Lazy loading in Angular](#6)
+- [ ] [Difference between `constructor` and `ngOnInit`](#7)
+- [ ] [Dependency Injection](#8)
+- [ ] [Tree-Shaking](#9)
+- [ ] [What are AOT and JIT? Which one is better and why?](#10)
+- [ ] [Ivy vs View Renderer Engine](#11)
+- [ ] [What are `@ViewChild` and `@ViewContent`](#12)
+- [ ] [Difference between interface and type](#13)
+- [ ] [Why don’t we use constructor for assignment?](#14)
+- [ ] [proxy pattern, factory](#15)
+- [ ] [What is signals? Why do we use it?](#16)
+- [ ] [What do you understand by preprocessor?](#17)
+- [ ] [Performance optimization in Angular.](#18)
+- [ ] [Why would you use reactive extensions? Talk about some operators](#19)
+- [ ] [Angular Ivy, Angular Elements, Standalone Components, JS Expressions, Angular Expressions, Server Side Rendering](#20)
+- [ ] [Differences and how to unit test, integration test, end-to-end test](#21)
+- [ ] [Unit Testing using `Karma` and `Jasmine`](#22)
+
+
+## Answers
+
+### 6.
+#### Lazy loading in Angular
 
 Loading modules and their associated components on-demand, rather than loading everything upfront when the application starts. It's a key strategy for optimizing performance and user experience in large-scale Angular applications.
 

@@ -1,7 +1,7 @@
 # Accenture Interview
 
 1. [Introduce yourself](#1)
-2. [Tell me about your past project experience](#2)
+2. [Tell me about your past project experience.](#2)
 3. [What are the steps/important part of monolith to microservice migration?](#3)
 4. [How did you use spring cloud libraries?](#4)
 5. [Have you used circuit breaker pattern, how and which library you used?](#5)
@@ -23,7 +23,7 @@
 [goto behavioral-questions](../behavioral/behavioral-questions.md#1)
 
 ### 2.
-#### Tell me about your past project experience
+#### Tell me about your past project experience.
 [goto behavioral-questions](../behavioral/behavioral-questions.md#2)
 
 ### 3.
